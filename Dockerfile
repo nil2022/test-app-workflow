@@ -18,7 +18,7 @@ COPY . .
 
 # Express server uses port 3000 by default and EXPOSE instruction informs Docker
 # that the container listens on the specified network ports at runtime.
-EXPOSE 3000
+EXPOSE 3001
 
 # Run the web service on container startup.
 CMD [ "node", "index.js" ]
